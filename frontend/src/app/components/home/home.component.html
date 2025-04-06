@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="createPost" *ngIf="!category">
+    <form [formGroup]="createPostForm" (ngSubmit)="createPost()">
+      <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+          <mat-card-title>Create post</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="inputs">
+            <mat-form-field>
+              <input matInput formControlName="title" placeholder="Title">
+              <div *ngIf="title?.invalid && title?.touched">
+                <p class="error-message" *ngIf="title?.hasError('required')">Title is required.</p>
+              </div>
+            </mat-form-field>
+            <mat-form-field> <input matInput formControlName="category" placeholder="Category">
+              <div *ngIf="categoryFc?.invalid && categoryFc?.touched">
+                <p class="error-message" *ngIf="categoryFc?.hasError('required')">Category is required.</p>
+              </div>
+            </mat-form-field>
+
+          </div>
+          <mat-form-field appearance="fill" class="full-width">
+            <textarea matInput formControlName="content" rows="2" placeholder="Write your post..."></textarea>
+            <div *ngIf="content?.invalid && content?.touched">
+              <p class="error-message" *ngIf="content?.hasError('required')">Content is required.</p>
+            </div>
+
+          </mat-form-field>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Post</button>
+        </mat-card-actions>
+      </mat-card>
+    </form>
+  </div>
+
+  <div *ngIf=category class="displayCategory">
+    <h1> {{category}}</h1>
+  </div>
+  <app-post [posts]="(posts$ | async) ?? []"></app-post>
+</div>

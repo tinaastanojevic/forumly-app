@@ -1,0 +1,6 @@
+<div class="container">
+  <div *ngIf=category class="displayCategory">
+    <h1> Category: {{category}}</h1>
+  </div>
+  <app-post [posts]="(posts$ | async) ?? []"></app-post>
+</div>

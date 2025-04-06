@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    padding: 50px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonSection {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.loginButton {
+    margin-bottom: 15px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}

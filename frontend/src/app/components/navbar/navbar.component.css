@@ -1,0 +1,40 @@
+mat-toolbar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-right: 1%;
+
+}
+
+.toolbarOptions {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.searchButton {
+    color: #3f51b5;
+}
+
+.search input {
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    max-width: 300px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.clickable {
+    cursor: pointer;
+}

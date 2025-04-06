@@ -1,0 +1,93 @@
+<div class="posts" *ngFor="let post of posts">
+  <mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+
+      <mat-card-title>{{post.title}}</mat-card-title>
+      <mat-card-subtitle>{{post.username}}</mat-card-subtitle>
+
+      <div class="postOptions">
+        <p class="editedPost" *ngIf="post.edited !== undefined && post.edited===true">Edited</p>
+        <p class="date">{{post.createdAt | date: 'dd.MM.yyyy. HH:mm'}}</p>
+
+        <ng-container *ngIf="router.url.includes('/user')">
+          <button mat-icon-button (click)="clickedEdit(post.id)"><mat-icon>edit</mat-icon></button>
+          <button mat-icon-button (click)="deletePost(post.id)"><mat-icon>delete</mat-icon></button>
+        </ng-container>
+      </div>
+
+    </mat-card-header>
+    <mat-card-content>
+      <div *ngIf="editPostId && editPostId===post.id; else nonEditMode">
+
+        <textarea class="full-width-textarea" matInput [rows]="7" #TextareaEditPost
+          [(ngModel)]="post.content"></textarea>
+
+        <div class="buttonsContainer">
+          <button mat-button class="savePostButton" (click)="editPost()">Save</button>
+          <button mat-button class="savePostButton" (click)="cancel()">Cancel</button>
+        </div>
+
+      </div>
+      <ng-template #nonEditMode>
+        <p *ngIf="!(post.content | truncate:300).isTruncated; else seeFullPost">{{post.content}}
+        </p>
+        <ng-template #seeFullPost>
+          <p #PostContent>{{(post.content | truncate:300).text}}
+            <button class="seeFullPost" (click)="seeMore(PostContent,post.id)">
+              See more
+            </button>
+          </p>
+        </ng-template>
+      </ng-template>
+
+      <a href="/category/{{post.category}}">#{{post.category}}</a>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button (click)="likePost(post.id)" mat-button>
+        <span
+          [ngClass]="(post.likes && post.likes.includes(+userService.currentUser.id)) ? 'dislike':'like'">{{post.likes.length}}
+          {{
+          post.likes.length === 1 ? 'Like' : 'Likes'}}</span>
+      </button>
+      <button (click)="openCommentPage(post.id)" mat-button> {{ post.commentCount }} {{ post.commentCount === 1
+        ? 'Comment' : 'Comments' }} </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <!-- za komentare -->
+  <ng-container *ngIf="post.comments !== undefined && router.url.includes('/comment')">
+    <div class="addComment">
+      <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+          <mat-card-title>Add comment: </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <textarea #TextareaComment class="full-width-textarea" rows="5"></textarea>
+        </mat-card-content>
+        <mat-card-actions>
+          <button (click)="addComment(post.id)" mat-button>Comment</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="comments" *ngFor="let comment of post.comments">
+      <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Comment: </mat-card-title>
+          <div class="postDate">
+            <p>{{comment.createdAt | date: 'dd.MM.yyyy. HH:mm'}}</p>
+          </div>
+          <mat-card-subtitle>{{comment.username}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            {{comment.text}}
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+  </ng-container>

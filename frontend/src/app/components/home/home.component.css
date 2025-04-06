@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* align-items: center; */
+}
+
+.createPost {
+    display: flex;
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+    flex-direction: column;
+    max-width: 700px;
+    margin: auto;
+}
+
+.example-card {
+    width: 100%;
+    display: flex;
+}
+
+.mat-mdc-card-header {
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.mdc-card__actions {
+    justify-content: flex-end
+}
+
+mat-form-field {
+    display: flex;
+    width: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.displayCategory {
+    display: flex;
+    padding-top: 2%;
+}
+
+.app-post-container {
+    display: flex;
+}

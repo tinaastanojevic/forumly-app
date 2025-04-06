@@ -1,0 +1,31 @@
+<mat-toolbar color="primary">
+    <span class="clickable" routerLink="">Forumly</span>
+
+
+    <div class="toolbarOptions">
+
+        <div class="search">
+            <button (click)="search()" class="searchButton" mat-icon-button aria-label="Search">
+                <mat-icon>search</mat-icon>
+            </button>
+            <input (keyup.enter)="onEnterClick()" placeholder="Search titles..." type="text" [(ngModel)]="searchText">
+        </div>
+
+        <button mat-button routerLink="">Home</button>
+        <button mat-button [matMenuTriggerFor]="menu">Categories</button>
+        <mat-menu #menu="matMenu">
+            <div *ngFor="let category of categories$ | async">
+                <button mat-menu-item (click)="openCategory(category)">{{category}}</button>
+            </div>
+        </mat-menu>
+
+        <button *ngIf="!isAuth" mat-button routerLink="/login">Login</button>
+        <button *ngIf="!isAuth" mat-button routerLink="/register">Register</button>
+
+        <button mat-button [matMenuTriggerFor]="profile" *ngIf="isAuth">{{(user$ | async)?.username}}</button>
+        <mat-menu #profile="matMenu">
+            <button mat-menu-item routerLink="/user">My posts</button>
+            <button mat-menu-item (click)="logout()">Logout</button>
+        </mat-menu>
+    </div>
+</mat-toolbar>

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 4,
+    "username": "Tina",
+    "password": "$2b$10$/TSyn6mNcL2Ktgzpgn0giuZ0C1y0yz5qpkGWq5SG9wzSfGFcbLrca"
+  },
+  {
+    "id": 5,
+    "username": "Darko",
+    "password": "$2b$10$8DJbUXbJvZl9/9bATxOF8OziXiXXfIx5N3gBD03Ot1zmBUtOMb0M."
+  },
+  {
+    "id": 1,
+    "username": "XUser",
+    "password": "$2b$10$Dx5.5VJapf43pEux1AcIHOvMBQ6xNhe/uhe7M7oXaA0mMcUV2N3mq"
+  },
+  {
+    "id": 6,
+    "username": "XUser2",
+    "password": "$2b$10$eMXJ35aa9pqZGxoyM7Uq9urHG3pon7beAsuFUDRHa2ZvF50UxnLz6"
+  },
+  {
+    "id": 7,
+    "username": "x",
+    "password": "$2b$10$p8hZixnqsQm4WRPvDphPsuw6merSmocvxNKI.WZ7Kz/oIolqKEovG"
+  },
+  {
+    "id": 8,
+    "username": "novi profil",
+    "password": "$2b$10$u.pxf4KyAY/4jaxQcrRsKuv4wlTZIpr0PqKPV7N0c.1yHbg7TQFpq"
+  },
+  {
+    "id": 9,
+    "username": "fdddddg",
+    "password": "$2b$10$cTN35a7fyALmoid9gmv6/.DoJ6R4u1oGAQYDREs9Q7MtgUFfE9Xga"
+  },
+  {
+    "id": 10,
+    "username": "dfd",
+    "password": "$2b$10$mkDkCvYXO2cveLfZTxmw8uz2/E8GfC8wCZri7XiSdmy8vrTtQfp02"
+  },
+  {
+    "id": 11,
+    "username": "novi korisnik",
+    "password": "$2b$10$6yiaiClBa9VINvF6lfb8Je18MImiJj8T2Y29/jnbVo1tr3czMV4dm"
+  },
+  {
+    "id": 12,
+    "username": "novi user",
+    "password": "$2b$10$O4D/mzH7npXRKcoyWrzUkeGwQDDgEvMxNShAOXPwosd1XszUpBcb2"
+  },
+  {
+    "id": 13,
+    "username": "User1",
+    "password": "$2b$10$WsxngU2i8TpBfOe9XGL2QupDKEqstCLIvnrINdPwKZvzRv70JSlVi"
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "id": 20,
+    "title": "svd",
+    "category": "vdvd",
+    "content": "vdvdv",
+    "userId": 4,
+    "username": "Tina",
+    "likes": [],
+    "createdAt": "2025-02-19T15:34:58.145Z",
+    "comments": []
+  },
+  {
+    "id": 16,
+    "title": "koja mi sifra",
+    "category": "sifra",
+    "content": "da li neko zna koja mi je sifraaa",
+    "userId": 12,
+    "likes": [
+      7,
+      13
+    ],
+    "createdAt": "2025-02-11T15:31:19.026Z",
+    "comments": [
+      {
+        "id": 7,
+        "userId": 4,
+        "text": "fdbbbbbbbbb",
+        "createdAt": "2025-02-19T15:21:38.872Z",
+        "username": "Tina"
+      },
+      {
+        "id": 6,
+        "userId": 7,
+        "text": "vfxvxfb",
+        "createdAt": "2025-02-19T15:21:18.899Z",
+        "username": "x"
+      },
+      {
+        "id": 5,
+        "userId": 7,
+        "text": "neee",
+        "createdAt": "2025-02-17T13:11:55.995Z",
+        "username": "x"
+      },
+      {
+        "id": 4,
+        "userId": 7,
+        "text": "czdczcz",
+        "createdAt": "2025-02-11T15:58:52.585Z",
+        "username": "x"
+      },
+      {
+        "id": 3,
+        "userId": 7,
+        "text": "vgdsvdsvdsv",
+        "createdAt": "2025-02-11T15:57:23.675Z",
+        "username": "x"
+      },
+      {
+        "id": 2,
+        "userId": 7,
+        "text": "csccdcs",
+        "createdAt": "2025-02-11T15:47:26.102Z",
+        "username": "x"
+      },
+      {
+        "id": 1,
+        "userId": 12,
+        "text": "12345 mozda",
+        "createdAt": "2025-02-11T15:31:30.718Z",
+        "username": "novi user"
+      }
+    ],
+    "username": "novi user"
+  },
+  {
+    "id": 15,
+    "title": "Crne rupe",
+    "category": "Nauka",
+    "content": "Crne rupe su jedno od najfascinantnijih i najzagonetnijih fenomena u astrofizici. Iako se njihovo postojanje već dugo pretpostavlja, najnovija otkrića, poput prvih slika crne rupe, omogućavaju nam da ih bolje razumemo. Ova otkrića ne samo da proširuju naše znanje o svemiru, već nam otkrivaju i fizičke zakone koji vladaju u ekstremnim uslovima. Iako je naša sposobnost da direktno proučavamo crne rupe ograničena, napredak u tehnologiji, kao što su teleskopi nove generacije, daje nadu da ćemo uskoro moći da dođemo do još dubljih uvida u njihov rad i uticaj na okolni prostor...",
+    "userId": 7,
+    "likes": [
+      7
+    ],
+    "createdAt": "2025-02-07T17:07:52.493Z",
+    "comments": [
+      {
+        "id": 9,
+        "userId": 7,
+        "text": "vsvsvs",
+        "createdAt": "2025-02-16T15:10:45.735Z",
+        "username": "x"
+      },
+      {
+        "id": 8,
+        "userId": 7,
+        "text": "fdshd fbusdjnj bnsbdhf hfbdhh bdhbhbchchdb hbs hd vhsbvhsdbvdhvhshvhbdshbvbhdvbhhbd hbh dbhbh dbh bhdb hbhh b bbhhb h hbhb b jb hb bh bhj b bhbh  hjg v  fycfy yf fdvxsfvbsv",
+        "createdAt": "2025-02-16T15:10:03.720Z",
+        "username": "x"
+      },
+      {
+        "id": 7,
+        "userId": 7,
+        "text": "proba indekssss",
+        "createdAt": "2025-02-10T15:27:00.980Z",
+        "username": "x"
+      },
+      {
+        "id": 6,
+        "userId": 7,
+        "text": "novi koment",
+        "createdAt": "2025-02-10T15:26:43.530Z",
+        "username": "x"
+      },
+      {
+        "id": 5,
+        "userId": 7,
+        "text": "ispravljen lajkk",
+        "createdAt": "2025-02-10T15:10:49.319Z",
+        "username": "x"
+      },
+      {
+        "id": 4,
+        "userId": 7,
+        "text": "ao sortiranje",
+        "createdAt": "2025-02-10T15:02:06.540Z",
+        "username": "x"
+      },
+      {
+        "id": 3,
+        "userId": 7,
+        "text": "v",
+        "createdAt": "2025-02-10T14:56:49.833Z",
+        "username": "x"
+      },
+      {
+        "id": 2,
+        "userId": 7,
+        "text": "ssta se desilp",
+        "createdAt": "2025-02-10T14:56:26.502Z",
+        "username": "x"
+      },
+      {
+        "id": 1,
+        "userId": 7,
+        "text": "hehe sto da ne ",
+        "createdAt": "2025-02-10T14:56:13.853Z",
+        "username": "x"
+      },
+      {
+        "id": 0,
+        "userId": 7,
+        "text": "je l mogu sam sebi da komentarisem",
+        "createdAt": "2025-02-10T14:56:08.357Z",
+        "username": "x"
+      }
+    ],
+    "username": "x",
+    "edited": true
+  },
+  {
+    "id": 14,
+    "title": "Evo",
+    "category": "Nauka",
+    "content": "Nesto naucno se desilo ne znam sta je l cuo neko odg odg ",
+    "userId": 11,
+    "likes": [
+      7
+    ],
+    "createdAt": "2025-02-07T17:05:09.995Z",
+    "comments": [
+      {
+        "id": 0,
+        "userId": 7,
+        "text": "koj ti djavo lazu te na televizoru ugasi ga",
+        "createdAt": "2025-02-07T17:06:25.607Z",
+        "username": "x"
+      }
+    ],
+    "username": "novi korisnik"
+  },
+  {
+    "id": 5,
+    "title": "Zdravstvene koristi meditacije",
+    "category": "Zdravlje",
+    "content": "Meditacija je vekovima poznata praksa koja pomaže u smanjenju stresa, poboljšanju koncentracije i jačanju emocionalne stabilnosti. Redovno praktikovanje meditacije može smanjiti nivo kortizola, hormona stresa, i poboljšati kvalitet sna. Pored toga, istraživanja pokazuju da meditacija može imati pozitivan uticaj na srčano zdravlje i jačanje imunog sistema. Da biste započeli sa meditacijom, dovoljno je izdvojiti nekoliko minuta dnevno za svesno disanje i fokusiranje na sadašnji trenutak.",
+    "userId": 1,
+    "likes": [
+      11
+    ],
+    "comments": [
+      {
+        "id": 0,
+        "userId": 11,
+        "text": "zasto ovo niko ne komentarise...",
+        "createdAt": "2025-02-07T17:04:38.557Z",
+        "username": "novi korisnik"
+      },
+      {
+        "id": 1,
+        "userId": 7,
+        "text": "cao",
+        "createdAt": "2025-02-10T16:47:42.073Z",
+        "username": "x"
+      }
+    ],
+    "createdAt": "2025-02-06T11:00:00Z",
+    "username": "XUser"
+  },
+  {
+    "id": 4,
+    "title": "Budućnost veštačke inteligencije",
+    "category": "Tehnologija",
+    "content": "Veštačka inteligencija se brzo razvija i menja način na koji živimo i radimo. Sa napretkom u oblasti dubokog učenja i neuronskih mreža, AI postaje sposoban da analizira ogromne količine podataka, donosi odluke i čak generiše kreativni sadržaj. Ipak, postavlja se pitanje etike i kontrole nad razvojem ove tehnologije. Da li će AI u budućnosti preuzeti mnoge ljudske poslove ili će, naprotiv, pomoći ljudima da budu produktivniji i efikasniji? ",
+    "userId": 4,
+    "likes": [
+      7
+    ],
+    "comments": [],
+    "createdAt": "2025-02-06T10:45:00Z",
+    "username": "Tina",
+    "edited": true
+  },
+  {
+    "id": 2,
+    "title": "Najnoviji trendovi u programiranju",
+    "category": "Tehnologija",
+    "content": "Programiranje je oblast koja se neprestano menja i prilagođava potrebama tržišta. Trenutno, funkcionalno programiranje doživljava sve veću popularnost zahvaljujući jezicima kao što su Elixir i Haskell. Takođe, TypeScript postaje standard za razvoj velikih aplikacija zbog svoje tipizacije i bolje strukture koda. Pored toga, veštačka inteligencija sve više ulazi u svet programiranja, omogućavajući automatizaciju mnogih zadataka koji su nekada zahtevali ljudsku intervenciju. Kako će ovi trendovi oblikovati budućnost softverskog razvoja?",
+    "userId": 5,
+    "likes": [
+      4,
+      7
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "userId": 7,
+        "text": "Wow moracu da istrazim to, hvala Darko!",
+        "createdAt": "2025-02-07T15:23:45.814Z",
+        "username": "x"
+      },
+      {
+        "id": 1,
+        "userId": 4,
+        "text": "Nije istina",
+        "createdAt": "2025-02-07T15:24:19.861Z",
+        "username": "Tina"
+      },
+      {
+        "id": 2,
+        "userId": 4,
+        "text": "da dad dada da d",
+        "createdAt": "2025-02-07T15:25:07.269Z",
+        "username": "Tina"
+      },
+      {
+        "id": 3,
+        "userId": 7,
+        "text": "uaaaaaaaa",
+        "createdAt": "2025-02-10T15:31:26.209Z",
+        "username": "x"
+      },
+      {
+        "id": 4,
+        "userId": 7,
+        "text": "staaaaa",
+        "createdAt": "2025-02-11T15:41:47.783Z",
+        "username": "x"
+      }
+    ],
+    "createdAt": "2025-02-06T10:15:00Z",
+    "username": "Darko"
+  },
+  {
+    "id": 1,
+    "title": "Tajne svemira i nova otkrića",
+    "category": "Nauka",
+    "content": "Astronomi širom sveta neprestano istražuju tajne svemira. Nedavno je otkrivena egzoplaneta koja se nalazi u nastanjivoj zoni svoje zvezde, što otvara mogućnosti za postojanje života van Zemlje. Pored toga, teleskop Džejms Veb nastavlja da pruža fascinantne slike ranog svemira, omogućavajući nam da razumemo kako su se galaksije formirale. Dokle će nas ova istraživanja odvesti i da li ćemo jednog dana pronaći dokaze o vanzemaljskom životu?",
+    "userId": 1,
+    "likes": [
+      4,
+      5
+    ],
+    "comments": [
+      {
+        "id": 0,
+        "userId": 5,
+        "text": "Prvi komentarrrrrrr",
+        "createdAt": "2024-03-06T15:33:31.089Z"
+      },
+      {
+        "id": 1,
+        "userId": 5,
+        "text": "Ovaj nedavni otkriće egzoplanete koja se nalazi u nastanjivoj zoni je zaista uzbudljiv korak u istraživanjima vanzemaljskog života. Teleskop Džejms Veb je postao ključni alat u otkrivanju dubljih misterija svemira, jer nam omogućava da uočimo detalje koji su do sada bili nevidljivi. Iako su rezultati impresivni, pred nama je još mnogo pitanja koja čekaju odgovore. Da li će buduće misije i napredak tehnologije omogućiti otkriće života izvan naše planete? I koliko blizu smo istini o postojanju života u svemiru? Samo vreme će pokazati, ali ove otkriće svakako pomeraju granice naše spoznaje.",
+        "createdAt": "2024-05-06T15:33:31.089Z"
+      },
+      {
+        "id": 2,
+        "userId": 4,
+        "text": "Glupost ziva",
+        "createdAt": "2024-04-07T15:33:31.089Z"
+      },
+      {
+        "id": 3,
+        "userId": 7,
+        "text": "proba doddavanja novog komentara",
+        "createdAt": "2025-02-07T14:45:40.423Z",
+        "username": "x"
+      },
+      {
+        "id": 4,
+        "userId": 7,
+        "text": "gde se dodaje ovaj komentar",
+        "createdAt": "2025-02-07T15:12:35.486Z",
+        "username": "x"
+      },
+      {
+        "id": 5,
+        "userId": 7,
+        "text": "kako sortira ovo",
+        "createdAt": "2025-02-07T15:14:28.996Z",
+        "username": "x"
+      },
+      {
+        "id": 6,
+        "userId": 7,
+        "text": "kako sortira",
+        "createdAt": "2025-02-07T15:14:46.944Z",
+        "username": "x"
+      },
+      {
+        "id": 7,
+        "userId": 4,
+        "text": "hahaha ",
+        "createdAt": "2025-02-07T15:25:35.169Z",
+        "username": "Tina"
+      }
+    ],
+    "createdAt": "2024-04-06T10:00:00Z",
+    "username": "XUser"
+  },
+  {
+    "id": 3,
+    "title": "Proboj u kvantnom računarstvu",
+    "category": "Nauka",
+    "content": "Naučnici su postigli novi proboj u oblasti kvantnog računarstva, čime su ubrzali proces obrade podataka na način koji nije bio moguć sa klasičnim računarima. Kvantni računari koriste kubite umesto klasičnih bitova, omogućavajući im da istovremeno obrađuju više mogućih stanja. Ova tehnologija mogla bi doneti revoluciju u oblasti enkripcije, simulacija molekula i optimizacije složenih problema. Ipak, još uvek postoje brojni izazovi, uključujući stabilnost kvantnih sistema i potrebu za radom na izuzetno niskim temperaturama.",
+    "userId": 5,
+    "likes": [
+      7
+    ],
+    "comments": [
+      {
+        "id": 0,
+        "userId": 7,
+        "text": "sta ",
+        "createdAt": "2025-02-07T15:07:35.704Z",
+        "username": "x"
+      },
+      {
+        "id": 1,
+        "userId": 7,
+        "text": "cscs",
+        "createdAt": "2025-02-07T15:08:00.364Z",
+        "username": "x"
+      },
+      {
+        "id": 2,
+        "userId": 7,
+        "text": "dobro",
+        "createdAt": "2025-02-10T13:45:31.303Z",
+        "username": "x"
+      }
+    ],
+    "createdAt": "2024-02-06T10:30:00Z",
+    "username": "Darko"
+  }
+]

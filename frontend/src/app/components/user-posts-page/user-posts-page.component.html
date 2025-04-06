@@ -1,0 +1,17 @@
+<ng-container *ngIf="posts$ | async as posts">
+  <mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+
+      <mat-card-title>
+        <p>Username: {{ user.username }}</p>
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+
+      <p>Number of posts: {{posts.length}}</p>
+    </mat-card-content>
+  </mat-card>
+
+
+  <app-post [posts]="posts ?? []"></app-post>
+</ng-container>

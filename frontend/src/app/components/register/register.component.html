@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="form">
+    <form [formGroup]="registerForm" (ngSubmit)="register()">
+      <mat-form-field>
+        <mat-label>Enter your username</mat-label>
+        <input formControlName="username" matInput />
+        <div *ngIf="username?.invalid && username?.touched">
+          <p class="error-message" *ngIf="username?.hasError('required')">Username is required.</p>
+          <p class="error-message" *ngIf="username?.hasError('minlength')">Username must contain at least 5 characters.
+          </p>
+        </div>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Enter your password</mat-label>
+        <input formControlName="password" matInput [type]="hide? 'password' : 'text'" />
+        <button mat-icon-button matSuffix (click)="hidePassword()" [attr.aria-label]="'Hide password'"
+          [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+        <div *ngIf="password?.invalid && password?.touched">
+          <p class="error-message" *ngIf="password?.hasError('required')">Password is required.</p>
+          <p class="error-message" *ngIf="password?.hasError('minlength')">Password must contain at least 6 characters.
+          </p>
+        </div>
+      </mat-form-field>
+
+      <div class="buttonSection">
+        <button mat-flat-button class="loginButton" color="primary">Register</button>
+        <a href="/login">Already have an account? Login here</a>
+      </div>
+
+    </form>
+
+  </div>
+</div>

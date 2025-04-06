@@ -1,0 +1,8 @@
+.dialogWindow{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1%;
+    margin: 1%;
+    align-items:center;
+}
