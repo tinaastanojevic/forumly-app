@@ -1,5 +1,5 @@
 # Forumly web application
-This is a forum-style application that allows users to create posts, like and comment on them, and easily search through posts.
+This is a forum-style application that allows users to create posts, like and comment on them, and easily search through posts. Additionally, users can view all their posts on their User Profile, where they can also edit or delete them.
 
 ## Technologies Used
 
