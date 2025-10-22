@@ -33,25 +33,23 @@ export class RegisterComponent {
 
 
   register() {
-    if (this.registerForm.valid) {
-      const userData = {
-        username: this.username?.value.username,
-        password: this.password?.value.password
-      }
-
-      this.userService.register(userData).pipe(
-        catchError((error) => {
-          alert('User with that username already exists!');
-          return of(null);
-        })
-      ).subscribe((user) => {
-        if (user) {
-          alert(`Welcome ${user.username}!`);
-          this.router.navigateByUrl('/');
-        }
-      });
+    if (!this.registerForm.valid) {
+      console.log("No valid data");
+      return;
     }
-
+    const userData = this.registerForm.value;
+    this.userService.register(userData).pipe(
+      catchError((error) => {
+        alert('User with that username already exists!');
+        return of(null);
+      })
+    ).subscribe((user) => {
+      if (user) {
+        alert(`Welcome ${user.username}!`);
+        this.router.navigateByUrl('/');
+      }
+    });
   }
 
 }
+
